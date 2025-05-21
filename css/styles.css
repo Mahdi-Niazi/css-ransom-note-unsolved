@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Snowburst+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Silkscreen:wght@400;700&family=Snowburst+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Mr+Dafoe&display=swap');
 
 * {
   padding: 0;
@@ -49,6 +58,7 @@ body {
   border: 6px solid grey;
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.8s ease-in-out;
+  border: 3px solid black;
 }
 
 /* Sample CSS for the WHY word */
@@ -83,222 +93,625 @@ body {
 /* DID word */
 
 .didDLetter {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FF5733;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Bungee Spice', cursive;
 }
 
 .didILetter {
+  font-size: 18px;
+  font-weight: 500;
+  color: #4287f5;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Pacifico', cursive;
 }
 
 .didDTwoLetter {
+  font-size: 30px;
+  font-weight: 700;
+  color: #28a745;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Raleway Dots', cursive;
 }
 
-/* THE word */
-
 .theTLetter {
+  font-size: 22px;
+  font-weight: 400;
+  color: #8e44ad;
+  text-decoration: overline;
+  text-transform: none;
+  font-family: 'Meow Script', cursive;
 }
 
 .theHLetter {
+  font-size: 20px;
+  font-weight: 600;
+  color: #e67e22;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Snowburst One', cursive;
 }
 
 .theELetter {
+  font-size: 28px;
+  font-weight: 300;
+  color: #1abc9c;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Lavishly Yours', cursive;
 }
 
-/* FRONT-END word */
-
 .frontendFLetter {
+  font-size: 24px;
+  font-weight: 800;
+  color: #c0392b;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Ceviche One', cursive;
 }
 
 .frontendRLetter {
+  font-size: 16px;
+  font-weight: 500;
+  color: #f1c40f;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: 'Honk', cursive;
 }
 
 .frontendOLetter {
+  font-size: 26px;
+  font-weight: 700;
+  color: #34495e;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Dr Sugiyama', cursive;
 }
 
 .frontendNLetter {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2ecc71;
+  text-decoration: overline;
+  text-transform: none;
+  font-family: 'Piazzolla', serif;
 }
 
 .frontendTLetter {
+  font-size: 25px;
+  font-weight: 600;
+  color: #d35400;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Mr Dafoe', cursive;
 }
 
 .frontendELetter {
+  font-size: 19px;
+  font-weight: 300;
+  color: #7f8c8d;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Ribeye Marrow', cursive;
 }
 
 .frontendNTwoLetter {
+  font-size: 23px;
+  font-weight: 400;
+  color: #9b59b6;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Silkscreen', cursive;
 }
 
 .frontendDLetter {
+  font-size: 18px;
+  font-weight: 500;
+  color: #3498db;
+  text-decoration: overline;
+  text-transform: none;
+  font-family: 'Pacifico', cursive;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
+  font-size: 26px;
+  font-weight: bold;
+  color: #e74c3c;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Ribeye Marrow', cursive;
 }
 
-/* TAKE word */
+.developerELetter {
+  font-size: 20px;
+  font-weight: 300;
+  color: #2980b9;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Meow Script', cursive;
+}
+
+.developerVLetter {
+  font-size: 22px;
+  font-weight: 700;
+  color: #8e44ad;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Ceviche One', cursive;
+}
+
+.developerETwoLetter {
+  font-size: 19px;
+  font-weight: 500;
+  color: #1abc9c;
+  text-decoration: overline;
+  text-transform: none;
+  font-family: 'Pacifico', cursive;
+}
+
+.developerLLetter {
+  font-size: 28px;
+  font-weight: 600;
+  color: #d35400;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Dr Sugiyama', cursive;
+}
+
+.developerOLetter {
+  font-size: 24px;
+  font-weight: 400;
+  color: #27ae60;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Snowburst One', cursive;
+}
+
+.developerPLetter {
+  font-size: 18px;
+  font-weight: 300;
+  color: #34495e;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Lavishly Yours', cursive;
+}
+
+.developerEThreeLetter {
+  font-size: 21px;
+  font-weight: 800;
+  color: #9b59b6;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Honk', cursive;
+}
+
+.developerRLetter {
+  font-size: 25px;
+  font-weight: 700;
+  color: #f39c12;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Piazzolla', serif;
+}
 
 .takeTLetter {
-}
-.takeALetter {
-}
-.takeKLetter {
-}
-.takeELetter {
+  font-size: 22px;
+  font-weight: bold;
+  color: #e67e22;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Bungee Spice', cursive;
 }
 
-/* UP word */
+.takeALetter {
+  font-size: 20px;
+  font-weight: 500;
+  color: #9b59b6;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Lavishly Yours', cursive;
+}
+
+.takeKLetter {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1abc9c;
+  text-decoration: line-through;
+  text-transform: lowercase;
+  font-family: 'Ceviche One', cursive;
+}
+
+.takeELetter {
+  font-size: 18px;
+  font-weight: 400;
+  color: #34495e;
+  text-decoration: overline;
+  text-transform: none;
+  font-family: 'Snowburst One', cursive;
+}
 
 .upULetter {
-}
-.upPLetter {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2ecc71;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: 'Pacifico', cursive;
 }
 
-/* GARDENING word */
+.upPLetter {
+  font-size: 21px;
+  font-weight: 300;
+  color: #f39c12;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family: 'Ribeye Marrow', cursive;
+}
 
 .gardeningGLetter {
+  font-size: 23px;
+  font-weight: 700;
+  color: #e74c3c;
+  text-decoration: line-through;
+  text-transform: uppercase;
+  font-family: 'Silkscreen', cursive;
 }
+
 .gardeningALetter {
+  font-size: 19px;
+  font-weight: 400;
+  color: #2980b9;
+  text-decoration: overline;
+  text-transform: none;
+  font-family: 'Meow Script', cursive;
 }
+
 .gardeningRLetter {
+  font-size: 27px;
+  font-weight: bold;
+  color: #8e44ad;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Dr Sugiyama', cursive;
 }
+
 .gardeningDLetter {
+  font-size: 25px;
+  font-weight: 500;
+  color: #16a085;
+  text-decoration: underline;
+  text-transform: lowercase;
+  font-family: 'Honk', cursive;
 }
+
 .gardeningELetter {
+  font-size: 22px;
+  font-weight: 600;
+  color: #c0392b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Raleway Dots', cursive;
 }
+
 .gardeningNLetter {
+  font-size: 20px;
+  font-weight: 300;
+  color: #d35400;
+  text-decoration: line-through;
+  text-transform: capitalize;
+  font-family: 'Mr Dafoe', cursive;
 }
+
 .gardeningILetter {
+  font-size: 28px;
+  font-weight: bold;
+  color: #f1c40f;
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Piazzolla', serif;
 }
+
 .gardeningNTwoLetter {
+  font-size: 24px;
+  font-weight: 700;
+  color: #7f8c8d;
+  text-decoration: underline;
+  text-transform: none;
+  font-family: 'Ceviche One', cursive;
 }
+
 .gardeningGTwoLetter {
+  font-size: 19px;
+  font-weight: 500;
+  color: #27ae60;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Pacifico', cursive;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  font-family: "Bungee Spice", sans-serif;
+  color: #8a2be2;
+  font-size: 54px;
 }
+
 .becauseELetter {
+  font-family: "Snowburst One", system-ui;
+  color: #5f9ea0;
+  font-size: 50px;
 }
+
 .becauseCLetter {
+  font-family: "Ceviche One", sans-serif;
+  color: #cd5c5c;
+  font-size: 52px;
 }
+
 .becauseALetter {
+  font-family: "Pacifico", cursive;
+  color: #f5deb3;
+  font-size: 48px;
 }
+
 .becauseULetter {
+  font-family: "Mr Dafoe", cursive;
+  color: #3cb371;
+  font-size: 50px;
 }
+
 .becauseSLetter {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  color: #f0f8ff;
+  font-size: 46px;
 }
+
 .becauseETwoLetter {
+  font-family: "Dr Sugiyama", cursive;
+  color: #ffdead;
+  font-size: 49px;
 }
 
 /* THEY word */
 
 .theyTLetter {
+  font-family: "Lavishly Yours", cursive;
+  color: #ff4500;
+  font-size: 50px;
 }
+
 .theyHLetter {
+  font-family: "Honk", system-ui;
+  color: #7cfc00;
+  font-size: 60px;
 }
+
 .theyELetter {
+  font-family: "Meow Script", cursive;
+  color: #ffe4b5;
+  font-size: 48px;
 }
+
 .theyYLetter {
+  font-family: "Snowburst One", system-ui;
+  color: #ff1493;
+  font-size: 54px;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  font-family: "Bungee Spice", sans-serif;
+  color: #32cd32;
+  font-size: 56px;
 }
+
 .wantedALetter {
+  font-family: "Pacifico", cursive;
+  color: #00ffff;
+  font-size: 48px;
 }
+
 .wantedNLetter {
+  font-family: "Ribeye Marrow", serif;
+  color: #ba55d3;
+  font-size: 50px;
 }
+
 .wantedTLetter {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  color: #fff8dc;
+  font-size: 52px;
 }
+
 .wantedELetter {
+  font-family: "Meow Script", cursive;
+  color: #8b0000;
+  font-size: 47px;
 }
+
 .wantedDLetter {
+  font-family: "Dr Sugiyama", cursive;
+  color: #f5f5f5;
+  font-size: 50px;
 }
 
 /* TO word */
 
 .toTLetter {
+  font-family: "Ceviche One", sans-serif;
+  color: #4682b4;
+  font-size: 55px;
 }
+
 .toOLetter {
+  font-family: "Pacifico", cursive;
+  color: #00bfff;
+  font-size: 50px;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  font-family: "Raleway Dots", sans-serif;
+  color: #ff6347;
+  font-size: 50px;
 }
+
 .improveMLetter {
+  font-family: "Mr Dafoe", cursive;
+  color: #20b2aa;
+  font-size: 48px;
 }
+
 .improvePLetter {
+  font-family: "Dr Sugiyama", cursive;
+  color: #ffdab9;
+  font-size: 52px;
 }
+
 .improveRLetter {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  color: #daa520;
+  font-size: 50px;
 }
+
 .improveOLetter {
+  font-family: "Ribeye Marrow", serif;
+  color: #6a5acd;
+  font-size: 54px;
 }
+
 .improveVLetter {
+  font-family: "Honk", system-ui;
+  color: #9acd32;
+  font-size: 58px;
 }
+
 .improveELetter {
+  font-family: "Pacifico", cursive;
+  color: #bc8f8f;
+  font-size: 50px;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  font-family: "Bungee Spice", sans-serif;
+  color: #f4a460;
+  font-size: 50px;
 }
+
 .theirHLetter {
+  font-family: "Honk", system-ui;
+  color: #f0e68c;
+  font-size: 55px;
 }
+
 .theirELetter {
+  font-family: "Lavishly Yours", cursive;
+  color: #faebd7;
+  font-size: 48px;
 }
+
 .theirILetter {
+  font-family: "Meow Script", cursive;
+  color: #c71585;
+  font-size: 46px;
 }
+
 .theirRLetter {
+  font-family: "Snowburst One", system-ui;
+  color: #e9967a;
+  font-size: 50px;
 }
 
 /* ROOT word */
 
 .rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
+  font-family: "Ribeye Marrow", serif;
+  color: #add8e6;
+  font-size: 55px;
 }
 
+.rootOLetter {
+  font-family: "Mr Dafoe", cursive;
+  color: #ffe4c4;
+  font-size: 50px;
+}
+
+.rootOTwoLetter {
+  font-family: "Pacifico", cursive;
+  color: #8fbc8f;
+  font-size: 50px;
+}
+
+.rootTLetter {
+  font-family: "Honk", system-ui;
+  color: #dda0dd;
+  font-size: 60px;
+}
 /* SKILLS word */
 
 .skillsSLetter {
-}
+  font-family: "Mr Dafoe", cursive;
+  font-weight: 400;
+  font-style: normal;}
 .skillsKLetter {
+  font-family: "Dr Sugiyama", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .skillsILetter {
+  font-family: "Snowburst One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 .skillsLLetter {
+  font-family: "Snowburst One", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 .skillsLTwoLetter {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 .skillsSTwoLetter {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  font-family: "Ribeye Marrow", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .exclamation-mark {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .question-mark {
+  font-size: 50px;
+  font-weight: lighter;
+  color: white;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: "Lavishly Yours", cursive;
 }
